@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  transition: all ease 0.3s;
+}
+
+nav:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+nav:hover .nav-links p,
+nav:hover .nav-icons .currency span i,
+nav:hover .nav-icons .currency span,
+nav:hover .nav-icons .currency p,
+nav:hover .nav-icons .user-icons i {
+  color: #000;
+}
+
+nav:hover .brand {
+  color: #000;
+  font-weight: 700;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  padding-left: 2.5vw;
+}
+
+nav .nav-links p {
+  color: #fff;
+  font-size: 0.8vw;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+nav .brand {
+  font-size: 1.5vw;
+  color: #fff;
+  font-weight: 300;
+  margin-left: -13vw;
+}
+
+nav .nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2.5vw;
+}
+
+nav .nav-icons .currency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-right: 2vw;
+}
+
+nav .nav-icons .currency img {
+  width: 25px;
+}
+
+nav .nav-icons .currency p {
+  color: #fff;
+}
+
+nav .nav-icons .currency span {
+  margin-top: -4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+nav .nav-icons .currency span i {
+  color: #fff;
+}
+
+nav .nav-icons .user-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+nav .nav-icons .user-icons i {
+  font-size: 1vw;
+  color: #fff;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  /* overflow hides the overflowing image */
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  /* z-index = layers */
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

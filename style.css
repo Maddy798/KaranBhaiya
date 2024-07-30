@@ -12,7 +12,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
 }
 
 nav:hover {
